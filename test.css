@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hoho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 90px;
+}
+.hehe {
+    animation: ChangeColor ease-in-out 0.8s infinite;
+}
+
+.test {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.haha {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: red;
+    padding: 2px 34px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    transform: skewY(-40deg);
+    animation: ChangeColor ease-in-out 0.8s infinite;
+}
+
+.test-img {
+    width: 100%;
+}
+
+@keyframes ChangeColor {
+    0% {
+        color: #fff;
+    }
+    30% {
+        color: rgb(73, 158, 198);
+    }
+    60% {
+        color: rgb(189, 243, 11);
+    }
+    100% {
+        color: rgb(133, 100, 205);
+    }
+}
